@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start-page</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="start-page.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+
+<body>
+    <div class="main-block">
+        <div class="header-conteiner">
+            <div class="left-block">
+                <a href="start-page.html" class="home">Home</a>
+            </div>
+            <div class="reight-block">
+                <a href="my-blog.html" class="item-link">My block</a>
+                <a href="#popup" class="item-link">Sign in</a>
+                <a href="" class="item-link" id="open-popup">Register</a>
+            </div>
+        </div>
+
+        <div class="header-page">
+            <h1 class="header-name">Dmitry<br>Semyonov</h1>
+            <span class="about-me">Future front-end developer<br>25 years old, Tolyatti</span>
+        </div>
+
+        <div class="adaptivn-slayder">
+            <div class="parag">
+                <img src="./img/vKSFat7OaAI.jpg" alt="Первый слайд">
+            </div>
+
+            <div class="parag">
+                <img src="./img/vKSFat7OaAI.jpg" alt="Второй слайд">
+            </div>
+
+            <div class="parag">
+                <img src="./img/vKSFat7OaAI.jpg" alt="Третий слайд">
+            </div>
+
+            <div class="parag">
+                <img src="./img/vKSFat7OaAI.jpg" alt="Третий слайд">
+            </div>
+        </div>
+
+        <div class="radio-btn">
+            <div class="vector">
+                <button class="left-btn" onclick="minusSlide()">
+                    <img src="./img/Group (4).png" alt="">
+                </button>
+                <div class="pagination">
+                    <span class="noguma-pomoki-kadra" onclick="currentSlide(1)"></span>
+                    <span class="noguma-pomoki-kadra" onclick="currentSlide(2)"></span>
+                    <span class="noguma-pomoki-kadra" onclick="currentSlide(3)"></span>
+                    <span class="noguma-pomoki-kadra" onclick="currentSlide(4)"></span>
+                </div>
+                <button class="right-btn" onclick="plusSlide()">
+                    <img src="./img/Group (5).png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-my">
+        <div class="about-title">
+            <div>
+                <h2 class="header-section">About me</h2>
+            </div>
+            <div class="about-text-1">
+                <img class="about-img-1" src="./img/Vector.svg" alt="">
+                <span class="about-1">Aliquam tortor molestie turpis est tristique. Congue<br>diam orci amet quis
+                    semper
+                    ut.
+                    Vitae aenean nibh<br>facilisis urna, ultricies euismod nunc. Commodo<br>fringilla sit hendrerit
+                    consequat. Vel ac elit vel sagittis.</span>
+            </div>
+            <div class="about-text-2">
+                <img class="about-img-2" src="./img/Vector (1).svg" alt="">
+                <span class="about-2">Tincidunt id quis pellentesque rutrum pretium. Egestas<br>aliquam dictum ipsum
+                    nisl,
+                    sed pulvinar. Commodo elit<br>sed a fermentum non justo. Etiam platea consectetur.</span>
+            </div>
+            <div class="about-text-3">
+                <img class="about-img-3" src="./img/Vector.svg" alt="">
+                <span class="about-3">Quam ipsum odio tellus etiam aliquam dolor ut<br>hendrerit. Felis risus nec
+                    vitae
+                    nunc
+                    ultricies placerat.<br>Nullam nec felis eu id dolor pellentesque tristique. </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-block">
+        <div class="skills">
+            <h3 class="header-section">Skills</h3>
+            <p class="header-text">I work in such programs as</p>
+            <div class="skills-img">
+                <div class="skills-item">
+                    <img src="./img/Group.svg" alt="">
+                    <p class="skills-name">HTML 5</p>
+                    <div class="html-skills">
+                        <p class="percent">85%</p>
+                        <progress class="progress" value="85" max="100"></progress>
+                    </div>
+                </div>
+                <div class="skills-item">
+                    <img src="./img/Group (1).svg" alt="">
+                    <p class="skills-name">CSS/SCSS</p>
+                    <div class="html-skills">
+                        <p class="percent">55%</p>
+                        <progress class="progress" value="55" max="100"></progress>
+                    </div>
+
+                </div>
+                <div class="skills-item">
+                    <img src="./img/Group (2).svg" alt="">
+                    <p class="skills-name">JavaScript</p>
+                    <div class="html-skills">
+                        <p class="percent">5%</p>
+                        <progress class="progress" value="5" max="100"></progress>
+                    </div>
+
+                </div>
+                <div class="skills-item">
+                    <img src="./img/Git-Icon-1788C.svg" alt="">
+                    <p class="skills-name">Git/GitHub</p>
+                    <div class="html-skills">
+                        <p class="percent">15%</p>
+                        <progress class="progress" value="15" max="100"></progress>
+                    </div>
+
+                </div>
+                <div class="skills-item">
+                    <img src="./img/Group (3).svg" alt="">
+                    <p class="skills-name">Figma</p>
+                    <div class="html-skills">
+                        <p class="percent">80%</p>
+                        <progress class="progress" value="80" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-text">
+            <span class="portfolio-heading">Portfolio</span>
+        </div>
+        <div class="container">
+            <div class="slider__items">
+                <div class="slider__item">
+                    <img src="./img/Picture (2).svg">
+                </div>
+                <div class="slider__item">
+                    <!-- Контент 2 слайда -->
+                </div>
+                <div class="slider__item">
+                    <!-- Контент 3 слайда -->
+                </div>
+                <div class="slider__item">
+                    <!-- Контент 4 слайда -->
+                </div>
+                <div class="slider__item">
+                    <!-- Контент 5 слайда -->
+                </div>
+            </div>
+            <div class="btn-slider-portfolio">
+                <div>
+                    <button class="left-btn" onclick="minusSlider()">
+                        <img src="./img/Group (4).png" alt="">
+                    </button>
+                </div>
+                <div>
+                    <button class="right-btn" onclick="plusSlider()">
+                        <img src="./img/Group (5).png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="pagination-portfolio">
+                <span class="noguma" onclick="followingSlide(1)"></span>
+                <span class="noguma" onclick="followingSlide(2)"></span>
+                <span class="noguma" onclick="followingSlide(3)"></span>
+                <span class="noguma" onclick="followingSlide(4)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4 class="header-section">Contacts</h4>
+        <p class="footer-text">Want to know more or just chat?<br>
+            You are welcome!</p>
+        <div class="btn-messeg">
+            <a href="#sms-my" class="footer-btn">Send message</a>
+        </div>
+
+        <div class="social-link">
+            <form class="messeger" action="https://www.instagram.com/?hl=ru" target="">
+                <button class="insta">Instagram</button>
+            </form>
+            <form class="messeger" action="https://vk.com/" target="">
+                <button class="vk">Vk</button>
+            </form>
+            <form class="messeger" action="https://web.telegram.org/" target="">
+                <button class="telega">Telegram</button>
+            </form>
+        </div>
+        <div class="social-item">
+            <form class="social-group" action="https://mail.ru/" target="">
+                <button class="mail">Mail</button>
+            </form>
+            <form class="social-group" action="https://github.com/" target="">
+                <button class="git">GitHub</button>
+            </form>
+            <form class="social-group" action="#" target="">
+                <button class="phone">Phone</button>
+            </form>
+        </div>
+        <div class="copyright">
+            <p class="copyright-text">Design by <a class="academy-footer" href="https://dlacademy.ru/">DL
+                    Academy</a><br>Program code from Antonina</p>
+        </div>
+    </div>
+
+    <div id="popup" class="sig-in">
+        <a href="#header" class="area"></a>
+        <form class="login">
+            <fieldset id="inputs" class="field_modal">
+                <a href="#header" class="popup_close">x</a>
+                <div class="input-mail">
+                    <span class="name-email">Email *</span>
+                    <input class="field" id="username" placeholder="" autofocus="" required="" type="text">
+                </div>
+                <div class="input-password">
+                    <span class="name-password">Password *</span>
+                    <input class="field" id="password" placeholder="" required="" type="password">
+                </div>
+                <input class="btn-login" id="submit" value="Log in" type="submit">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="main-popup close" id="main-popup">
+        <form class="registr">
+            <button id="btn-close-popup" type="button" class="contact-form-btn"></button>
+            <fieldset id="inputs" class="field_modal">
+                <div class="field-registr-email">
+                    <spam>Email *</spam>
+                    <input class="field" id="username" placeholder="" autofocus="" required="" type="text">
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <spam>Name *</spam>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <spam>Surname *</spam>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <spam>Password *</spam>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <spam>Repeat password *</spam>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <spam>Location *</spam>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <spam>Age *</spam>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="item-btn">
+                    <input class="check-btn" type="checkbox">
+                    <p>Clicking on the button, you consent to the processing of your personal data.</p>
+                </div>
+                <input class="btn-login" id="submit" value="Sign up" type="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div id="sms-my" class="sig-in">
+        <a href="#header" class="area"></a>
+        <form class="registr" action="">
+            <fieldset class="field_modal">
+                <a href="#header" class="popup_close">x</a>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <span>What is your name? *</span>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <span>Message subject *</span>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <span>Your Email *</span>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <span>Your mobile phone *</span>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-registr-message">
+                    <div class="field-list">
+                        <span>What do you want to discuss with me?</span>
+                        <input class="field-message">
+                    </div>
+                </div>
+                <div class="item-btn">
+                    <input class="check-btn" type="checkbox">
+                    <p>Clicking on the button, you consent to the processing of your personal data.</p>
+                </div>
+                <input class="btn-login" id="submit" value="Sign up" type="submit">
+            </fieldset>
+        </form>
+    </div>
+    <script src="start-page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-profile</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="start-page.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="my-profile.css" />
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+
+<body>
+    <div class="main-block">
+
+        <div class="header-conteiner">
+            <div class="left-block">
+                <a href="home" class="home">Home</a>
+            </div>
+            <div class="reight-block">
+                <a href="" class="item-link">My block</a>
+                <a href="" class="item-link">Sign in</a>
+                <a href="" class="item-link">Register</a>
+            </div>
+        </div>
+
+
+        <div class="my-profile">
+            <div class="head">
+                <span class="profile">My profile</span>
+            </div>
+        </div>
+        <div class="section-profile">
+            <div class="dossier-img">
+                <img src="./img/Profile image.svg">
+            </div>
+            <div class="dossier">
+                <div class="profile-list">
+                    <p class="profile-item">Name:</p>
+                    <p class="list-item">Dmitry</p>
+                </div>
+                <div class="profile-list">
+                    <p class="profile-item"> Surname:</p>
+                    <p class="list-item"> Semyonov</p>
+                </div>
+                <div class="profile-list">
+                    <p class="profile-item">Email:</p>
+                    <p class="list-item"> 89021575573@mail.ru</p>
+                </div>
+                <div class="profile-list">
+                    <p class="profile-item">Password:</p>
+                    <p class="list-item">******</p>
+                </div>
+                <div class="profile-list">
+                    <p class="profile-item">Location:</p>
+                    <p class="list-item">Tolyatti</p>
+                </div>
+                <div class="profile-list">
+                    <p class="profile-item">Age:</p>
+                    <p class="list-item">25</p>
+                </div>
+
+                <div class="nav-btn">
+                    <button class="dossier-btn">Change password</button>
+                    <button class="dossier-btn2">Change other data</button>
+                    <button class="dossier-btn3">Delete account</button>
+                </div>
+            </div>
+        </div>
+
+        <form id="login" class="login">
+            <fieldset id="inputs" class="field_modal">
+                <div class="input-mail">
+                    <span class="name-email">Old password</span>
+                    <input class="field" id="username" placeholder="" autofocus="" required="" type="text">
+                </div>
+                <div class="input-password">
+                    <span class="name-password">New password</span>
+                    <input class="field" id="password" placeholder="" required="" type="password">
+                </div>
+                <div class="input-password">
+                    <span class="name-password">Repeat new password</span>
+                    <input class="field" id="password" placeholder="" required="" type="password">
+                </div>
+                <input class="btn-password" id="submit" value="Change password" type="submit">
+            </fieldset>
+        </form>
+        <form class="registr">
+            <fieldset id="inputs" class="field_modal">
+                <div class="field-registr-email">
+                    <spam>Email</spam>
+                    <input class="field" id="username" placeholder="" autofocus="" required="" type="text">
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <spam>Name</spam>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <spam>Surname</spam>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-registr">
+                    <div class="field-list">
+                        <spam>Location</spam>
+                        <input class="field">
+                    </div>
+                    <div class="field-item">
+                        <spam>Age</spam>
+                        <input class="field">
+                    </div>
+                </div>
+                <div class="field-picture-list">
+                    <div class="field-list">
+                        <spam>Profile picture</spam>
+                        <input class="field-picture">
+                    </div>
+                </div>
+                <div class="item-btn">
+                    <input class="check-btn" type="checkbox">
+                    <p>Clicking on the button, you consent to the processing of your personal data.</p>
+                </div>
+                <input class="btn-profile" id="submit" value="Submit changes" type="submit">
+            </fieldset>
+        </form>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+
+.my-photo{
+    width: 100%;
+}
+
+.header-page{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.header-name{
+    margin: 0;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 47px;
+    line-height: 57px;
+}
+
+.about-me{
+    margin-top: 103px;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about-title{
+    padding-top: 60px;
+}
+
+.about-my{
+    background: #F6F6F6;
+    height: 618px;
+}
+
+.left-btn{
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.right-btn{
+    border: none;
+    background: white;
+}
+
+.header-section{
+    text-align: center;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    margin: 0 0 20px 0;
+    margin-bottom: 50px;
+}
+
+.header-text{
+    text-align: center;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 0 50px 0;
+}
+
+.skills{
+    margin-bottom: 64px;
+}
+
+.skills-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-item{
+    justify-content: center;
+    text-align: center;
+    transition: 500ms;
+}
+
+.skills-item:hover{
+    transform: scale(1.2);
+}
+
+.social-group{
+    margin-right: 10px;
+}
+
+.about-text-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-img-1{
+    align-items: center;
+    position: relative;
+    width: 475px;
+    height: 135px;
+}
+
+.about-1{
+    position: absolute;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 15px 35px
+}
+
+.about-text-2{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.about-img-2{
+    align-items: center;
+    position: relative;
+    width: 478px;
+    height: 114px;
+}
+
+.about-2{
+    position: absolute;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 15px 35px;
+}
+
+.about-text-3{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img-3{
+    align-items: center;
+    position: relative;
+    width: 478px;
+    height: 128px;
+}
+
+.about-3{
+    position: absolute;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 15px 35px
+}
+
+.html-skills{
+    display: flex;
+}
+
+.percent{
+    margin-right: 12px;
+    margin-top: -6px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.progress {
+    width: 142px;
+    background-color: #f3f3f3;
+    border: 0;
+    height: 9px;
+    border-radius: 9px;
+}
+
+.progress::-webkit-progress-bar {
+    background: #E5E5E5;
+    border-radius: 30px;
+}
+
+.progress::-webkit-progress-value {
+    background: black;
+    border-radius: 30px;
+}
+
+
+.adaptivn-slayder{
+    max-width: 90%;
+    display: contents;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px;
+  }
+  
+.adaptivn-slayder .parag img {
+    object-fit: cover;
+    width: 100%;  
+    border: none !important;
+    box-shadow: none !important;
+}
+  
+
+.adaptivn-slayder .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.adaptivn-slayder .prev:hover,
+.adaptivn-slayder .next:hover {
+    background-color: rgba(25, 24, 24, 0.8);
+}
+  
+
+.right-btn{
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+
+.vector{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pagination{
+    padding: 45px;
+}
+  
+.uneizmen-akemada {
+    text-align: center;
+ }
+
+.noguma-pomoki-kadra{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.deystvuyus,
+.noguma-pomoki-kadra:hover {
+    background-color: #aaa;
+}
+
+
+
+.adaptivn-slayder .parag {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+    opacity: .4
+    }
+    to {
+    opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+    opacity: .4
+    }
+    to {
+    opacity: 1
+    }
+}
+
+.portfolio{
+    padding-top: 60px;
+    background: #F6F6F6;
+}
+
+.portfolio-text{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.portfolio-heading{
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.container {
+      width: 1000px;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+}
+
+.slider__items {
+    counter-reset: slide;
+}
+
+.slider__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    counter-increment: slide;
+    height: 604px;
+    position:relative;
+}
+
+.slider__item::before {
+    content: counter(slide) "/5";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+}
+
+.slider__item:nth-child(2) {
+    background-color: #9c27b0;
+}
+
+.slider__item:nth-child(3) {
+    background-color: #3f51b5;
+}
+
+  .slider__item:nth-child(4) {
+    background-color: #03a9f4;
+  }
+
+  .slider__item:nth-child(5) {
+    background-color: #4caf50;
+  }
+
+  .btn-slider-portfolio{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    top: -330px
+
+  }
+
+.contact-form-btn {
+    position: fixed;
+    width: 15px;
+    height: 14px;
+    left: 70%;
+    border: none;
+    background-image: url(./img/Close\ \(1\).png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: center;
+}
+
+.close{
+    display: none;
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-profile</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="my-profile.css" />
+    <link rel="stylesheet" href="my-blog.css" />
+</head>
+
+<body>
+    <div class="main-block">
+
+        <div class="header-conteiner">
+            <div class="left-block">
+                <a href="start-page.html" class="home">Home</a>
+            </div>
+            <div class="reight-block">
+                <a href="" class="item-link">My block</a>
+                <a href="" class="item-link">Sign in</a>
+                <a href="" class="item-link">Register</a>
+            </div>
+        </div>
+
+        <div class="my-profile">
+            <div class="head">
+                <span class="profile">My blog</span>
+            </div>
+        </div>
+
+        <form class="filter">
+            <fieldset class="filter-list">
+                <div class="tags">
+                    <div class="color-box">
+                        <p class="head-box">Tags</p>
+                        <ul class="color1">
+                            <li>
+                                <input type="checkbox" class="checkbox-input1">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input2">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input3">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input4">
+                            </li>
+                        </ul>
+                        <ul class="color2">
+                            <li>
+                                <input type="checkbox" class="checkbox-input5">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input6">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input7">
+                            </li>
+                            <li>
+                                <input type="checkbox" class="checkbox-input8">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="views">
+                        <p class="head-box">Views</p>
+                        <ul class="views-box">
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="100-500">
+                                <label class="label-filtr" for="100-500">100-500</label>
+                            </li>
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="500-1000">
+                                <label class="label-filtr" for="500-1000">500-1000</label>
+                            </li>
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="1000-2000">
+                                <label class="label-filtr" for="1000-2000">1000-2000</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="comments-list">
+                        <p class="head-box">Comments</p>
+                        <ul class="comments-box">
+                            <li>
+                                <input type="checkbox" class="input-list" name="Comments" value="rad1" id="0">
+                                <label class="label-filtr" for="0">0</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="input-list" name="Comments" value="rad1" id="0-1">
+                                <label class="label-filtr" for="0-1">0-1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="input-list" name="Comments" value="rad1" id="1-50">
+                                <label class="label-filtr" for="1-50">1-50</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="how-show">
+                        <p class="head-box">How show?</p>
+                        <ul class="show-box">
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="show 5">
+                                <label class="label-filtr" for="show 5">show 5</label>
+                            </li>
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="show 10">
+                                <label class="label-filtr" for="show 10">show 10</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sort">
+                        <p class="head-box">Sort by</p>
+                        <ul class="sort-box">
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="date">
+                                <label class="label-filtr" for="date">date</label>
+                            </li>
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="title">
+                                <label class="label-filtr" for="title">title</label>
+                            </li>
+                            <li>
+                                <input class="radio-views" type="radio" name="Views" value="rad1" id="views">
+                                <label class="label-filtr" for="views">views</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-filtr">Reset</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="search">
+            <form class="search-box">
+                
+                    <input class="input-search" type="search" name="text" placeholder="">
+                    <input class="btn-search" type="submit" value="Search">
+                
+            </form>
+
+        </div>
+
+        <div class="post-item">
+            <div class="img-post">
+                <img src="./img/post-image.svg" alt="">
+            </div>
+            <div class="post-list">
+                <div class="date-item">
+                    <p>20.01.2020</p>
+                    <p>223 views</p>
+                    <a class="comments" href="#">97 comments</a>
+                </div>
+                <div class="post-text">
+                    <h2>This is my new dog.</h2>
+                    <span>Duis sit odio dui pretium suspendisse malesuada sit leo in. Massa nec eget etiam tellus
+                        ac.
+                        Sodales
+                        nibh pellentesque donec eu ultrices tortor condimentum massa.</span>
+                    <div class="link-header">
+                        <a class="link-post" href="">Go to this post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-item">
+            <div class="img-post">
+                <img src="./img/post-image (1).svg" alt="">
+            </div>
+            <div class="post-list">
+                <div class="date-item">
+                    <p>17.01.2020</p>
+                    <p>12 views</p>
+                    <a class="comments" href="#">0 comments</a>
+                </div>
+                <div class="post-text">
+                    <h2>Why do roosters scream in the morning?</h2>
+                    <span>Erat nunc parturient feugiat egestas adipiscing erat eu. Non neque mi volutpat et
+                        lectus.</span>
+                    <div class="link-header">
+                        <a class="link-post" href="">Go to this post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-item">
+            <div class="img-post">
+                <img src="./img/post-image (2).svg" alt="">
+            </div>
+            <div class="post-list">
+                <div class="date-item">
+                    <p>17.01.2020</p>
+                    <p>337 views</p>
+                    <a class="comments" href="#">48 comments</a>
+                </div>
+                <div class="post-text">
+                    <h2>Kangaroo. Start.</h2>
+                    <span>At leo at nisl tortor egestas. Mauris luctus est luctus massa tellus erat gravida. Eget aenean
+                        eget
+                        diam habitant risus. Dapibus et, nec platea felis. Facilisi ut leo arcu, semper id pellentesque
+                        quisque
+                        ultrices etiam.</span>
+                    <div class="link-header">
+                        <a class="link-post" href="">Go to this post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-item">
+            <div class="img-post">
+                <img src="./img/post-image (3).svg" alt="">
+            </div>
+            <div class="post-list">
+                <div class="date-item">
+                    <p>15.01.2020</p>
+                    <p>222 views</p>
+                    <a class="comments" href="#">14 comments</a>
+                </div>
+                <div class="post-text">
+                    <h2>Met a duckling at the pond.</h2>
+                    <span>Nulla tempus mauris sed vel bibendum. Felis urna suspendisse amet, laoreet sagittis. Semper
+                        pellentesque condimentum vitae morbi in dui. Et in et diam massa.</span>
+                    <div class="link-header">
+                        <a class="link-post" href="">Go to this post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-item">
+            <div class="img-post">
+                <img src="./img/post-image (4).svg" alt="">
+            </div>
+            <div class="post-list">
+                <div class="date-item">
+                    <p>15.01.2020</p>
+                    <p>122 views</p>
+                    <a class="comments" href="#">23 comments</a>
+                </div>
+                <div class="post-text">
+                    <h2>Can dogs also be friends?</h2>
+                    <span>Eu, libero aliquet nibh turpis quis nulla et ullamcorper purus. Consequat egestas sed sagittis
+                        morbi
+                        lacus. Consectetur et justo, sagittis vitae mi faucibus urna, eu. </span>
+                    <div class="link-header">
+                        <a class="link-post" href="">Go to this post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h4 class="header-section">Contacts</h4>
+            <p class="footer-text">Want to know more or just chat?<br>
+                You are welcome!</p>
+            <div class="btn-messeg">
+                <button class="footer-btn">Send message</button>
+            </div>
+
+            <div class="social-link">
+                <form class="messeger" action="https://www.instagram.com/?hl=ru" target="">
+                    <button class="insta">Instagram</button>
+                </form>
+                <form class="messeger" action="https://vk.com/" target="">
+                    <button class="vk">Vk</button>
+                </form>
+                <form class="messeger" action="https://web.telegram.org/" target="">
+                    <button class="telega">Telegram</button>
+                </form>
+            </div>
+            <div class="social-item">
+                <form class="social-group" action="https://mail.ru/" target="">
+                    <button class="mail">Mail</button>
+                </form>
+                <form class="social-group" action="https://github.com/" target="">
+                    <button class="git">GitHub</button>
+                </form>
+                <form class="social-group" action="#" target="">
+                    <button class="phone">Phone</button>
+                </form>
+            </div>
+            <div class="copyright">
+                <p class="copyright-text">Design by <a class="academy-footer" href="https://dlacademy.ru/">DL
+                        Academy</a><br>Program code from Antonina</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="my-blog.js"></script>
+</body>
+
+</html>

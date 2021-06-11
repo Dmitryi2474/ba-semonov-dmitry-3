@@ -1,0 +1,257 @@
+.main-block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.header-conteiner{
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: solid 1px #828282;
+}
+
+.left-block{
+    margin-right: 729px;
+}
+
+.reight-block{
+    display: flex;
+}
+
+.home{
+    text-decoration: none;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707; 
+    transition: 400ms;
+}
+
+.item-link{
+    margin-right: 18px;
+    text-decoration: none;
+    font-family: Gilroy;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282; 
+    transition: 400ms;
+}
+
+.item-link:hover{
+    color: black;
+}
+
+.item-link:nth-child(3){
+    margin-right: 0;
+}
+
+.footer-btn{
+    color: white;
+    border-radius: 30px;
+    width: 180px;
+    height: 42px;
+    padding:5px 29px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: black;
+    border: 3.5px solid #070707;
+    cursor: pointer;
+    transition: 400ms;
+    text-decoration: none;
+}
+
+.footer-btn:hover{
+    background: white;
+    color: black;
+}
+
+.insta{
+    border-radius: 30px;
+    width: 123px;
+    height: 42px;
+    padding: 10px 19px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    border: 3.5px solid #070707;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.insta:hover{
+    background: black;
+    color: white;
+}
+
+.vk{
+    width: 59px;
+    height: 42px;
+    border-radius: 30px;
+    border: 3.5px solid #070707;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.vk:hover{
+    background: black;
+    color: white;
+}
+
+.telega{
+    border-radius: 30px;
+    width: 116px;
+    height: 42px;
+    border: 3.5px solid #070707;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.telega:hover{
+    background: black;
+    color: white;
+}
+
+.mail{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    border: 3.5px solid #070707;
+    border-radius: 30px;
+    width: 73px;
+    height: 42px;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.mail:hover{
+    background: black;
+    color: white;
+}
+
+.git{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    border: 3.5px solid #070707;
+    border-radius: 30px;
+    width: 98px;
+    height: 42px;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.git:hover{
+    background: black;
+    color: white;
+}
+
+.phone{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    border: 3.5px solid #070707;
+    border-radius: 30px;
+    width: 91px;
+    height: 42px;
+    background: white;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.phone:hover{
+    background: black;
+    color: white;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.messeger{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-messeg{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-text{
+    text-align: center;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.copyright-text{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    text-align: center;
+    justify-content: center;
+}
+
+.copyright{
+    margin-top: 40px;
+}
+
+.academy-footer{
+    color: #828282;
+    text-decoration: none;
+}
+
+.academy-footer:hover{
+    color: black;
+    border-bottom: 1px dashed;
+}
+.header-section{
+    text-align: center;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    margin: 0 0 20px 0;
+    margin-bottom: 50px;
+}
